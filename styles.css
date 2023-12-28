@@ -154,7 +154,7 @@ body{
     border-radius: 15px;
     color: var(--White);
     background-color: var(--Dark-Blue);
-
+    margin-top: 50px;
     margin-bottom: 10px;
 
     background: linear-gradient(to bottom, var(--Dark-Blue), var(--Very-Dark-Blue));
