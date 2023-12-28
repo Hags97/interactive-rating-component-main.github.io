@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;color: hsl(0, 0%, 68%); }
+    .attribution a { color: white; }
+  </style>
+</head>
+    <body>
+
+      <!-- Rating state start -->
+      <div class="container">
+        <section class="icon">
+          <img src="./images/icon-star.svg" alt="icon-star">
+        </section>
+
+        <header class="title">
+
+          <h2>How did we do?</h2>
+        </header>
+
+        <section class="feedback-text">
+          <p>
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </p>
+        </section>
+
+        <section class="score">
+          <span class="sc">1</span>
+          <span class="sc">2</span>
+          <span class="sc">3</span>
+          <span class="sc">4</span>
+          <span class="sc">5</span>
+        </section>
+
+        <button class="btn">Submit</button>
+      </div>
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+
+      <div class="thanks">
+        <section class="image">
+          <img src="./images/illustration-thank-you.svg" alt="thank you image">
+        </section>
+
+        <section class="rating">
+            <p>You selected <span class="selected-score" aria-live="polite"></span> out of 5</p>
+        </section>
+
+        <section class="thanks-title">
+          <h1>Thank you!</h1>
+        </section>
+
+        <section class="thanks-description" aria-labelledby="thanks-title">
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need more support, don&#39;t hesitate to get in touch!
+          </p>
+        </section>
+
+      </div>
+      <!-- Thank you state end -->
+
+      
+      <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Hugo Garay Saravia</a>.
+      </footer>
+    </body>
+</html>
